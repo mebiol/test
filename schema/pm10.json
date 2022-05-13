@@ -2,8 +2,8 @@
     "pkg_meta": {
         "name": "pm10",
         "title": "ฝุ่นละออง PM10 เฉลี่ย 24 ชั่วโมง พ.ศ. 2554 - 2563",
-        "owner_org": "bedrock",
-        "maintainer": "กองสารสนเทศภูมิศาสตร์",
+        "owner_org": "Pollution Control Departmen",
+        "maintainer": "กองจัดการคุณภาพอากาศและเสียง",
         "maintainer_email": "PCD.feedback@gmail.com",
         "tag_string": "Agriculture,Livestock",
         "notes": "ไม่มี",
