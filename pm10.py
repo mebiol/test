@@ -2,7 +2,33 @@ import pandas as pd
 import os
 
 
-
+table_name = "PM10"
+schema = {
+    "table_name": table_name,
+    "bucket": "location-intelligence-feature-store",
+    "data_path": f"curated/{table_name}",
+    "desc_path": f"description/{table_name}/{table_name}.json",
+    "list_of_col": [
+        {
+            "name": "report_dt",
+            "data_type": "datetime64",
+            "desc_th": "วันที่ได้รับรายงานข้อมูล",
+            "desc_en": "reported date"
+        },
+        {
+            "name": "station_code",
+            "data_type": "str",
+            "desc_th": "รหัสสถานี",
+            "desc_en": "station code"
+        },
+        {
+            "name": "pm10",
+            "data_type": "float",
+            "desc_th": "ฝุ่นละอองที่มีขนาดเล็กกว่า 10",
+            "desc_en": "Particulate Matters 10"
+        }
+    ]
+}
 
 
 file_list = os.listdir("PM10")
