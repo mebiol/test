@@ -1,0 +1,27 @@
+{
+    "table_name": "pm10",
+    "bucket": "location-intelligence-feature-store",
+    "data_path": "curated/pollution_control_department",
+    "desc_path": "description/pollution_control_department/pm10.json",
+    "usability": "accumulate",
+    "list_of_col": [
+        {
+            "name": "report_dt",
+            "data_type": "datetime64",
+            "desc_th": "วันที่ได้รับรายงานข้อมูล",
+            "desc_en": "reported date"
+        },
+        {
+            "name": "station_code",
+            "data_type": "str",
+            "desc_th": "รหัสสถานี",
+            "desc_en": "station code"
+        },
+        {
+            "name": "pm10",
+            "data_type": "float",
+            "desc_th": "ฝุ่นละอองที่มีขนาดเล็กกว่า 10 ไมครอน",
+            "desc_en": "Particulate Matters 10 micron"
+        }
+    ]
+}

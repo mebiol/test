@@ -1,0 +1,154 @@
+{
+    "ckan": {
+        "pkg_meta": {
+            "name": "abattoir",
+            "title": "ที่ตั้งโรงฆ่าสัตว์ในพื้นที่กรุงเทพมหานคร",
+            "owner_org": "bedrock",
+            "maintainer": "กองสารสนเทศภูมิศาสตร์",
+            "maintainer_email": "bmagis@gmail.com",
+            "tag_string": "Agriculture,Livestock",
+            "notes": "ไม่มี",
+            "data_format": "CSV",
+            "data_source": "Bangkok Metropolitan Administration",
+            "data_type": "CSV",
+            "license_id": "License not specified",
+            "private": "สาธารณะ",
+            "update_frequency_unit": "ไม่ทราบ",
+            "geo_coverage": "ไม่ทราบ",
+            "objective": "ไม่ทราบ",
+            "data_category": "ข้อมูลสาธารณะ"
+        },
+        "resource_metadata": {
+            "package_id": null,
+            "name": "abattoir",
+            "description": "ที่ตั้งโรงฆ่าสัตว์ในพื้นที่กรุงเทพมหานคร",
+            "format": "CSV",
+            "mimetype": "CSV"
+        }
+    },
+    "schema_data": {
+        "name": "abattoir",
+        "bucket": "location-intelligence-storage",
+        "data_path": "feature_store/location_intelligence/curated/bangkok_metropolitan_administration/abattoir",
+        "desc_path": "data_catalog/bangkok_metropolitan_administration/abattoir/abattoir.json",
+        "dependency": null,
+        "usability": "latest",
+        "list_of_col": [
+            {
+                "name": "y",
+                "data_type": "float",
+                "desc_th": "ตำแหน่งทางภูมิศาสตร์",
+                "desc_en": null
+            },
+            {
+                "name": "address",
+                "data_type": "str",
+                "desc_th": "ที่อยู่",
+                "desc_en": null
+            },
+            {
+                "name": "type",
+                "data_type": "str",
+                "desc_th": null,
+                "desc_en": null
+            },
+            {
+                "name": "geometry",
+                "data_type": "str",
+                "desc_th": "ลักษณะข้อมูลทางภูมิศาสตร์",
+                "desc_en": null
+            },
+            {
+                "name": "li_area",
+                "data_type": "float",
+                "desc_th": "ข้อมูลทางภูมิศาสตร์",
+                "desc_en": null
+            },
+            {
+                "name": "geom",
+                "data_type": "geometry",
+                "desc_th": "ข้อมูลทางภูมิศาสตร์ที่ถูกเก็บในรูปแบบฐานข้อมูล postgreSQL\n\n",
+                "desc_en": null
+            },
+            {
+                "name": "district_id",
+                "data_type": "str",
+                "desc_th": "รหัสอำเภอ",
+                "desc_en": null
+            },
+            {
+                "name": "province_id",
+                "data_type": "str",
+                "desc_th": "รหัสจังหวัด",
+                "desc_en": null
+            },
+            {
+                "name": "report_dt",
+                "data_type": "datetime64",
+                "desc_th": "วันที่ได้รับรายงานข้อมูล",
+                "desc_en": null
+            },
+            {
+                "name": "dl_data_dt",
+                "data_type": "datetime64",
+                "desc_th": "วันที่ข้อมูลเข้าสู่ระบบ",
+                "desc_en": null
+            },
+            {
+                "name": "geom_code",
+                "data_type": "str",
+                "desc_th": "รูปแบบทางภูมิศาสตร์",
+                "desc_en": null
+            },
+            {
+                "name": "g_id",
+                "data_type": "str",
+                "desc_th": "รหัสชั้นข้อมูล",
+                "desc_en": null
+            },
+            {
+                "name": "layer_code",
+                "data_type": "str",
+                "desc_th": "ชื่อฐานข้อมูล",
+                "desc_en": null
+            },
+            {
+                "name": "sub_district_id",
+                "data_type": "str",
+                "desc_th": "รหัสตำบล",
+                "desc_en": null
+            },
+            {
+                "name": "data_source",
+                "data_type": "str",
+                "desc_th": "แหล่งที่มาของข้อมูล",
+                "desc_en": null
+            },
+            {
+                "name": "x",
+                "data_type": "float",
+                "desc_th": "ตำแหน่งทางภูมิศาสตร์",
+                "desc_en": null
+            },
+            {
+                "name": "dcode",
+                "data_type": "str",
+                "desc_th": null,
+                "desc_en": null
+            },
+            {
+                "name": "name",
+                "data_type": "str",
+                "desc_th": "ชื่ื่อบริษัทโรงฆ่าสัตว์",
+                "desc_en": null
+            },
+            {
+                "name": "id",
+                "data_type": "int",
+                "desc_th": null,
+                "desc_en": null
+            }
+        ],
+        "geometry": true
+    }
+}
