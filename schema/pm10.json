@@ -1,4 +1,30 @@
-{
+{"ckan": {
+    "pkg_meta": {
+        "name": "pm10",
+        "title": "ฝุ่นละออง PM10 เฉลี่ย 24 ชั่วโมง พ.ศ. 2554 - 2563",
+        "owner_org": "bedrock",
+        "maintainer": "กองสารสนเทศภูมิศาสตร์",
+        "maintainer_email": "PCD.feedback@gmail.com",
+        "tag_string": "Agriculture,Livestock",
+        "notes": "ไม่มี",
+        "data_format": "CSV",
+        "data_source": "Pollution Control Department",
+        "data_type": "CSV",
+        "license_id": "License not specified",
+        "private": "สาธารณะ",
+        "update_frequency_unit": "ไม่ทราบ",
+        "geo_coverage": "ไม่ทราบ",
+        "objective": "ไม่ทราบ",
+        "data_category": "ข้อมูลสาธารณะ"
+    },
+    "resource_metadata": {
+        "package_id": null,
+        "name": "pm10",
+        "description": "ฝุ่นละออง PM10 เฉลี่ย 24 ชั่วโมง พ.ศ. 2554 - 2563",
+        "format": "CSV",
+        "mimetype": "CSV"
+    }
+},
     "table_name": "pm10",
     "bucket": "location-intelligence-feature-store",
     "data_path": "curated/pollution_control_department",
